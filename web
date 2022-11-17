@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang=“us-VI”>
+<head>
+  <title>library</title>
+  <link rel="icon" type="png-icon" href="mystyle.css">
+<style>
+html, body{margin:0px; height:100%;}
+.bg-image{
+     background-image: url("v960-ning-05.jpg");
+     filter: blur(0px);
+     width: 100%; height: 100%; 
+     object-fit: cover;
+         }
+h1{color: DarkGreen;
+    text-align: center;}
+img{width:60%; height:60%; object-fit: cover;}
+#address {color:white;
+          background: rgba(0, 128, 121, 0.3);
+         }
+</style>
+</head>
+ <body>
+  <div class="bg-image"><d/div>
+  <h1>Environment</h1>
+  <br><br>
+  <img src="Image.jpg" alt="Hill" width="670.8" height="372.7" > 
+  <button onclick="uwf.com">Buy</button>
+  <i>35$</i>
+  <br>
+  <sup>Canvas paint</sup>
+  <br>
+  <br>
+  <br>
+  <br>
+  <a href=“contact.com” title="Click here">Contact me</a>
+
+  <hr>
+<div id="address">  <address>
+   Written by Martin.DT<br>
+   Visit us at:<br>
+   Example.com<br>
+   Hai Chau, Da Nang<br>
+   Viet Nam
+  </address>
+<div>
+ </body>
+</html>
