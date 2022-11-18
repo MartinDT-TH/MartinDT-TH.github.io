@@ -17,30 +17,46 @@ img{width:60%; height:60%; object-fit: cover;}
 #address {color:white;
           background: rgba(0, 128, 121, 0.3);
          }
-#container{ background-color: #90caf9;
-            width:cover;
-            padding:7% 50px;
-            margin:0 auto;
-            text-align:center;
+.container{ background-color: #90caf9;
+            width:100%;
+            padding:30px 20px; 
+            margin:0 auto; 
+            text-align:left;
+            overflow: hidden;
+ 
           }
-#hehe{ width:180px;
+#home{ width:180px;
    display:inline-block;
-   margin:5% 20px;
-   padding:10px 0px;
+  /*  margin:5% 20px;
+   padding:10px 0px; */
    text-align:center;
-   font-size:25px;
+   font-size:20px;
    font-weight:bold;
    color:black;
-   position:relative;
- }
-
+   position:relative; 
+     }
+#home a{ float:center; background-color: #333;
+         text-align: left;
+         padding:14 10px;
+         text-decoration: none;
+       }
+.button { float:left; 
+         text-align: center;
+         padding:2px cover;
+         text-decoration: none;
+       }
+  .container a:hover {
+     background-color: #ddd;
+     color: black;
+        }
+.button #home.a {background-color:green; color:white;}
 </style>
 </head>
 
- <body>
+ <body position:absolute>
   <div class="bg-image"><d/div>
-<div id="container">
- <a id="hehe" href="hehe.com">Home</a> <a id="hehe" href="hehe.com">Canvas</a> <a id="hehe" href="hehe.com">Tools</a> <a id="hehe" href="hehe.com">Materials</a> <a id="hehe" href="hehe.com">Artist</a>
+<div class="container">
+ <a class="button" id="home" href="hehe.com">Home</a> <a id="home" href="hehe.com">Canvas</a> <a id="home" href="hehe.com">Tools</a> <a id="home" href="hehe.com">Materials</a> <a id="home" href="hehe.com">Artist</a>
 </div>
   <h1>Environment</h1>
   <br><br>
@@ -51,7 +67,7 @@ img{width:60%; height:60%; object-fit: cover;}
   <br>
   <sup>Canvas paint</sup>
   <br>
-  <ba
+  <br>
   <br>
   <br>
   <a href=“contact.com” title="Click here">Contact me</a>
